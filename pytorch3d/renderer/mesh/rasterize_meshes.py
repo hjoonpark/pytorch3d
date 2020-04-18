@@ -420,7 +420,7 @@ def point_line_distance(p, v0, v1):
         v0, v1: Coordinates of the end points of the line segment.
 
     Returns:
-        non-square distance to the boundary of the triangle.
+        squared distance to the boundary of the triangle.
 
     Consider the line extending the segment - this can be parameterized as
     ``v0 + t (v1 - v0)``.
